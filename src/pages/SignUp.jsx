@@ -79,7 +79,7 @@ const SignUp = () => {
           />
 
           <input
-            type='email'
+            type='text'
             name='email'
             id='email'
             placeholder='Email'
