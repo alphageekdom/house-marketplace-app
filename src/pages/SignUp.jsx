@@ -10,6 +10,7 @@ import {
 } from 'firebase/auth';
 import { db } from '../firebase.config';
 import { setDoc, doc, serverTimestamp } from 'firebase/firestore';
+import OAuth from '../components/OAuth';
 
 const SignUp = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -115,7 +116,7 @@ const SignUp = () => {
           </div>
         </form>
 
-        {/* Goof Auth */}
+        <OAuth />
 
         <Link to={'/sign-in'} className='registerLink'>
           Sign In
