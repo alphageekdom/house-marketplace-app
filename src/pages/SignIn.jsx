@@ -10,7 +10,9 @@ const SignIn = () => {
     password: '',
   });
 
-  const { email, password } = useNavigate();
+  const { email, password } = formData;
+
+  const navigate = useNavigate();
 
   const onChange = (e) => {
     setFormData((prevState) => ({
