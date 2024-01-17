@@ -79,7 +79,6 @@ const Profile = () => {
           name,
         });
       }
-      console.log(123);
     } catch (error) {
       console.log(error);
       toast.error('Could not update profile details');

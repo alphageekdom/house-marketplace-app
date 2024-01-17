@@ -89,6 +89,16 @@ button {
   top: -3.4%;
   right: 20px;
 }
+@media (max-width: 600px) {
+  .removeIcon {
+    top: 93%;
+    left: 20%;
+  }
+  .editIcon {
+    top: 93%;
+    left: 5%;
+  }
+}
 
 .pageContainer,
 .offers,

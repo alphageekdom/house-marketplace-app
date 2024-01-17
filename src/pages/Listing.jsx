@@ -40,8 +40,6 @@ const Listing = () => {
     return <Spinner />;
   }
 
-  console.log(auth.currentUser);
-
   return (
     <main>
       <Swiper
