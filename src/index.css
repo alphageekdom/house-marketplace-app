@@ -345,7 +345,7 @@ button {
   color: #ffffff;
   position: absolute;
   top: 70px;
-  left: 0;
+  left: 50px;
   font-weight: 600;
   max-width: 90%;
   font-size: 1.25rem;
@@ -355,6 +355,7 @@ button {
 @media (min-width: 1024px) {
   .swiperSlideText {
     font-size: 1.75rem;
+    letter-spacing: 1px;
   }
 }
 
@@ -362,12 +363,13 @@ button {
   color: #000000;
   position: absolute;
   top: 143px;
-  left: 11px;
+  left: 61px;
   font-weight: 600;
   max-width: 90%;
   background-color: #ffffff;
   padding: 0.25rem 0.5rem;
   border-radius: 1rem;
+  letter-spacing: 1px;
 }
 @media (min-width: 1024px) {
   .swiperSlidePrice {
